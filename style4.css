@@ -1,0 +1,90 @@
+*{margin:0px;padding:0px}
+body{background:#452a5a;font-family:arial;font-size:16px}
+#loginForm{width:1000px;height:550px;background:white;margin:auto;margin-top:100px}
+.leftLoginForm{width:400px;height:550px;background:#eceaea;float:left}
+.leftLoginForm h4 {
+    font-size: 11px;
+    color: #452a5a;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.leftLoginForm h1 {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    color: #452a5a;
+    font-weight: 500;
+	font-size: 25px;
+}
+input.inUsername {
+    width: 300px;
+    border: none;
+    margin-left: 60px;
+    color: #452a5a;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #a8a8a8;
+    padding: 10px;
+	background:#eceaea;
+}
+
+input.inPassword {
+    width: 300px;
+    border: none;
+    margin-left: 60px;
+    color: #452a5a;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #a8a8a8;
+    padding: 10px;
+	background:#eceaea;
+}
+button.login {
+    width: 130px;
+    padding: 15px;
+    color: white;
+    border: none;
+    background: #452a5a;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 3px;
+    box-shadow: 0px 0px 29px -8px black;
+    margin-top: 88px;
+}
+.rightContent {
+    background: linear-gradient(#9a2222a6,#852470cf),url(a6.jpg);
+    overflow: hidden;
+    background-size: cover;
+    width: 600px;
+    height: 550px;
+    color: white;
+    text-align: center;
+}
+.rightContent h1{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.rightContent h4{
+	font-size:15px;
+	color:#e2e2e2;
+	font-weight:500;
+}
+i.far.fa-arrow-alt-circle-left {
+    color: #452a5a;
+    margin-right: 10px;
+}
+.active {
+    margin: auto;
+    width: 108px;
+    margin-top: 115px;
+}
+.active h2{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: #D1C8C7;
+    float: left;
+    margin-left: 10px;
+}
+#active2{background:white}
